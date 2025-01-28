@@ -1,0 +1,231 @@
+{
+  "id": "story-001",
+  "theme": "Princípios da Cibersegurança",
+  "title": "O Mistério do Arquivo Desaparecido",
+  "intro": "Em uma pequena empresa de tecnologia, um arquivo confidencial desaparece misteriosamente. Dois funcionários, Alex e Bob, começam a investigar o caso, enquanto aprendem sobre cibersegurança.",
+  "summary": "Alex e Bob descobrem que o arquivo sumiu devido a práticas inadequadas de segurança e aprendem a importância dos princípios básicos de cibersegurança.",
+  "backgroundUrl": "none",
+  "authorId": "author-001",
+  "characters": [
+    {
+      "id": "char-001",
+      "name": "Alex",
+      "role": "Analista de Sistemas",
+      "position": "left",
+      "avatarUrl": "",
+      "gender": "male"
+    },
+    {
+      "id": "char-002",
+      "name": "Bob",
+      "role": "Especialista em Segurança",
+      "position": "right",
+      "avatarUrl": "",
+      "gender": "male"
+    }
+  ],
+  "sceneCharacters": [
+    {
+      "id": "scene-char-001",
+      "characterId": "char-001",
+      "order": 1,
+      "speech": "Bob, você ouviu sobre o arquivo confidencial que sumiu?",
+      "emotion": "confused",
+      "avatarUrl": ""
+    },
+    {
+      "id": "scene-char-002",
+      "characterId": "char-002",
+      "order": 2,
+      "speech": "Sim, Alex. Precisamos investigar isso e entender o que aconteceu.",
+      "emotion": "thinking",
+      "avatarUrl": ""
+    },
+    {
+      "id": "scene-char-003",
+      "characterId": "char-001",
+      "order": 3,
+      "speech": "Por onde devemos começar? Não quero que isso aconteça novamente.",
+      "emotion": "confused",
+      "avatarUrl": ""
+    },
+    {
+      "id": "scene-char-004",
+      "characterId": "char-002",
+      "order": 4,
+      "speech": "Vamos revisar os acessos ao sistema. Pode ser que alguém tenha se passado por um de nós.",
+      "emotion": "thinking",
+      "avatarUrl": ""
+    },
+    {
+      "id": "scene-char-005",
+      "characterId": "char-001",
+      "order": 5,
+      "speech": "Então, é importante mantermos nossas senhas seguras, certo?",
+      "emotion": "thinking",
+      "avatarUrl": ""
+    },
+    {
+      "id": "scene-char-006",
+      "characterId": "char-002",
+      "order": 6,
+      "speech": "Exatamente! Um dos princípios básicos é a confidencialidade das senhas.",
+      "emotion": "excited",
+      "avatarUrl": "",
+      "interaction": {
+        "id": "interaction-001",
+        "sceneCharacterId": "scene-char-006",
+        "sentence": "Qual é o próximo passo na nossa investigação?",
+        "options": [
+          {
+            "id": "interaction-option-001",
+            "sceneCharacterId": "scene-char-006",
+            "nextSceneCharacterId": "scene-char-007",
+            "label": "Analisar logs de acesso.",
+            "feedback": "Boa escolha! Os logs podem revelar atividades suspeitas."
+          },
+          {
+            "id": "interaction-option-002",
+            "sceneCharacterId": "scene-char-006",
+            "nextSceneCharacterId": "scene-char-008",
+            "label": "Verificar permissões de usuários.",
+            "feedback": "Excelente! Revisar permissões pode prevenir acessos indevidos."
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene-char-007",
+      "characterId": "char-002",
+      "order": 7,
+      "speech": "Ótimo! Verifiquei os logs e parece que alguém acessou o sistema durante o final de semana!",
+      "emotion": "surprised",
+      "avatarUrl": ""
+    },
+    {
+      "id": "scene-char-008",
+      "characterId": "char-001",
+      "order": 8,
+      "speech": "Precisamos investigar quem pode ter tido acesso físico ou remoto ao sistema.",
+      "emotion": "thinking",
+      "avatarUrl": ""
+    },
+    {
+      "id": "scene-char-009",
+      "characterId": "char-002",
+      "order": 9,
+      "speech": "Sim, e introduzir autenticações multi-fator como uma barreira extra.",
+      "emotion": "very-happy",
+      "avatarUrl": ""
+    },
+    {
+      "id": "scene-char-010",
+      "characterId": "char-001",
+      "order": 10,
+      "speech": "Definitivamente! Isso garante uma segunda camada de proteção.",
+      "emotion": "happy",
+      "avatarUrl": ""
+    },
+    {
+      "id": "scene-char-011",
+      "characterId": "char-002",
+      "order": 11,
+      "speech": "E também é essencial educarmos todos na empresa sobre cibersegurança.",
+      "emotion": "neutral",
+      "avatarUrl": ""
+    },
+    {
+      "id": "scene-char-012",
+      "characterId": "char-001",
+      "order": 12,
+      "speech": "Concordo! Vamos preparar um workshop sobre isso.",
+      "emotion": "very-happy",
+      "avatarUrl": ""
+    },
+    {
+      "id": "scene-char-013",
+      "characterId": "char-001",
+      "order": 13,
+      "speech": "Bob, conseguimos resolver o caso do arquivo?",
+      "emotion": "curious",
+      "avatarUrl": "",
+      "interaction": {
+        "id": "interaction-002",
+        "sceneCharacterId": "scene-char-013",
+        "sentence": "Qual foi a causa do desaparecimento do arquivo?",
+        "options": [
+          {
+            "id": "interaction-option-003",
+            "sceneCharacterId": "scene-char-013",
+            "nextSceneCharacterId": "scene-char-014",
+            "label": "Acesso não autorizado.",
+            "feedback": "Correto! Todos precisam estar atentos ao acesso de seus dispositivos."
+          },
+          {
+            "id": "interaction-option-004",
+            "sceneCharacterId": "scene-char-013",
+            "nextSceneCharacterId": "scene-char-015",
+            "label": "Falha no sistema.",
+            "feedback": "Parcialmente certo, mas a falha ocorreu devido a acessos indevidos."
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene-char-014",
+      "characterId": "char-002",
+      "order": 14,
+      "speech": "Sim, foi o acesso não autorizado. Precisamos reforçar as medidas de segurança.",
+      "emotion": "thinking",
+      "avatarUrl": ""
+    },
+    {
+      "id": "scene-char-015",
+      "characterId": "char-002",
+      "order": 15,
+      "speech": "Foi falha no sistema devido a acessos indevidos. Maior vigilância é crucial.",
+      "emotion": "frustrated",
+      "avatarUrl": ""
+    },
+    {
+      "id": "scene-char-016",
+      "characterId": "char-001",
+      "order": 16,
+      "speech": "É um alívio saber onde falhamos. Vamos aprender com isso.",
+      "emotion": "neutral",
+      "avatarUrl": ""
+    },
+    {
+      "id": "scene-char-017",
+      "characterId": "char-002",
+      "order": 17,
+      "speech": "Exato! A cibersegurança é um esforço contínuo.",
+      "emotion": "happy",
+      "avatarUrl": ""
+    },
+    {
+      "id": "scene-char-018",
+      "characterId": "char-001",
+      "order": 18,
+      "speech": "Obrigado, Bob. Aprendi muito hoje.",
+      "emotion": "very-happy",
+      "avatarUrl": ""
+    },
+    {
+      "id": "scene-char-019",
+      "characterId": "char-002",
+      "order": 19,
+      "speech": "Foi um prazer, Alex. Sempre a disposição para ajudar.",
+      "emotion": "happy",
+      "avatarUrl": ""
+    },
+    {
+      "id": "scene-char-020",
+      "characterId": "char-001",
+      "order": 20,
+      "speech": "Vamos seguir com as melhorias! Temos bastante trabalho a fazer.",
+      "emotion": "excited",
+      "avatarUrl": ""
+    }
+  ]
+}
